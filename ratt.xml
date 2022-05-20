@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\danst\Documents\Rockstar\Modular\designs\KiCad\ratt\ratt\ratt.kicad_sch</source>
+    <date>5/5/2022 9:08:35 PM</date>
+    <tool>Eeschema (6.0.1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Ratt</title>
+        <company>Song Naga</company>
+        <rev>v0.1</rev>
+        <date/>
+        <source>ratt.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>558d99ad-feab-40c5-856d-a7e7bb1a1152</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100uF</value>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>58d8f08e-e7d2-492a-be2e-59364a2537ae</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>47uF</value>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9589405c-ccc2-4da9-94bc-957e11a6e209</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>22n</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e4be5e5-a3b9-4d02-ae81-53a09f24c5d0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a437659-4eb6-4b82-81e7-d1eeb01b68d1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22nF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a613684-d15e-4067-846a-4ab6f999b6c5</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1nF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37316deb-d077-4aa7-ad89-8249ed3f5b29</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4615e762-923e-4639-8720-ef13d68fea3b</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>30pF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63234c1d-83e5-41ca-b438-07b6bf95e093</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>3.3nF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8374301f-947e-465f-b78d-09ab79d652ae</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100pF</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1f79b4d-5703-4719-b395-2ace4b05b913</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>2.2uF</value>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e8883aa-eeeb-4a32-b0fa-912b6d53abbb</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>4.7uF</value>
+      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3f94bae-eb97-4ac3-a360-4c837ae74e89</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N5817</value>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e96741c0-4ae0-48f6-a628-76807d8b48cc</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Small</value>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>594ad0d8-13b5-4539-9238-0097cb9ac50d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D_Small</value>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3672ad8e-f98f-471a-abc1-af5ec2192d4f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N5457</value>
+      <footprint>Package_TO_SOT_THT:TO-18-3</footprint>
+      <datasheet>http://www.bucek.name/pdf/2n2646,2647.pdf</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2646" description="Unijunction Transistor, TO-18"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f003d1d6-a76e-4138-b0ce-e137e978b103</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>47R</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ba333f17-033f-407e-99ea-b3f2b0a71eeb</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03a82ea7-123c-4eb4-8d5a-3efdfd65dc3c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0c1d321-59fb-4e73-a82d-6bc5798c0d11</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1M</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8980e636-99fd-488a-94b7-f47684150f88</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e20cfdb-326d-4b14-b572-ddf767922d7d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c0b7c24-4e25-4091-a570-06df3f962307</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98a9fd7f-8c81-41c3-bb0e-494a0879e055</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1.5k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7dd0178-66ea-4210-ab3b-1f4c2f6fadc3</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1M</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b97e849c-946e-44c1-baae-4f0ef72dba5e</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5005448d-2e75-4149-b8d2-236daf1ea025</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>47R</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8155de88-adc8-4e7c-b861-51ad2ae58e59</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>560R</value>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c134688-6f25-466a-b29b-a8de306fa4c7</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>A100K</value>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97d85d68-24f4-4745-b91d-2a84c6182d60</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>B1k</value>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>baed3963-c690-40bf-a4b9-1a55ed097738</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>A100k</value>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>478ade99-0637-4598-8976-d80ff768f2e9</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM308N</value>
+      <datasheet>http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="CA3130" description="15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ratt.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34503c3e-38b4-4f26-9f55-d3dcb1437235</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="CA3130">
+      <description>15MHz, BiMOS Operational Amplifier with MOSFET Input/CMOS Output, DIP-8/SOIC-8</description>
+      <docs>http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CA3130</field>
+        <field name="Datasheet">http://www.intersil.com/content/dam/intersil/documents/ca31/ca3130-a.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NULL" type="passive"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NULL" type="passive"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="STRB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_US">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2646">
+      <description>Unijunction Transistor, TO-18</description>
+      <docs>http://www.bucek.name/pdf/2n2646,2647.pdf</docs>
+      <footprints>
+        <fp>TO?18*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2646</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-18-3</field>
+        <field name="Datasheet">http://www.bucek.name/pdf/2n2646,2647.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="passive"/>
+        <pin num="2" name="E" type="input"/>
+        <pin num="3" name="B1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9V">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="4" name="INPUT">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="E" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="B1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="STRB" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="NULL" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C11-Pad1)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="6" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="OUTPUT">
+      <node ref="C8" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="VA">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="B2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="23" name="VB">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="NULL" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
