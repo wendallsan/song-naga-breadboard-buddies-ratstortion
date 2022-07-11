@@ -1,4 +1,4 @@
-(pcb "C:\Users\danst\Documents\Rockstar\Modular\designs\KiCad\breadboard-buddies\ratstortion\ratstortion\ratt.dsn"
+(pcb "C:\Users\danst\Documents\Rockstar\Modular\designs\KiCad\development\breadboard-buddies\distortions series\ratstortion\song-naga-breadboard-buddies-ratstortion\ratt.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)
@@ -87,9 +87,6 @@
     (component "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical::2"
       (place RV3 19675.000000 -40850.000000 front 90.000000 (PN A100k))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
-      (place REF2 29400.000000 -24230.000000 back 0.000000 (PN PinHeader_1x01_P2.54mm_Vertical))
-    )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (place U1 35910.000000 -28120.000000 back 0.000000 (PN LM308N))
     )
@@ -115,7 +112,7 @@
       (place R12 49528.000000 -36010.000000 back 0.000000 (PN 100k))
     )
     (component Resistor_SMD:R_0805_2012Metric::5
-      (place R8 42272.000000 -40850.000000 back 0.000000 (PN 47R))
+      (place R8 49552.000000 -38180.000000 back 0.000000 (PN 47R))
     )
     (component Capacitor_SMD:C_0805_2012Metric::2
       (place C3 34458.000000 -32920.000000 back 270.000000 (PN 22nF))
@@ -128,7 +125,7 @@
     )
     (component Capacitor_SMD:C_0805_2012Metric::4
       (place C5 27098.000000 -37550.000000 back 90.000000 (PN 1uF))
-      (place C10 50282.000000 -38410.000000 back 0.000000 (PN 2.2uF))
+      (place C10 42252.000000 -41040.000000 back 0.000000 (PN 2.2uF))
     )
     (component Resistor_SMD:R_0805_2012Metric::7
       (place R3 34550.000000 -38302.000000 back 0.000000 (PN 1k))
@@ -163,9 +160,6 @@
     (component "Diode_SMD:D_SOD-123F"
       (place D3 46692.000000 -29995.000000 back 180.000000 (PN SM5817))
     )
-    (component Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
-      (place REF1 42100.000000 -24230.000000 back 0.000000 (PN PinHeader_1x01_P2.54mm_Vertical))
-    )
     (component Resistor_SMD:R_0805_2012Metric::11
       (place R11 19200.000000 -37422.000000 back 90.000000 (PN 560R))
     )
@@ -184,6 +178,23 @@
   )
   (library
     (image "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
+      (outline (path signal 120  880 -7370  880 -5880))
+      (outline (path signal 120  880 -7370  5600 -7370))
+      (outline (path signal 120  12470 -7370  12470 2370))
+      (outline (path signal 120  9410 -7370  12470 -7370))
+      (outline (path signal 120  9410 2370  12470 2370))
+      (outline (path signal 120  880 -1710  880 -1180))
+      (outline (path signal 120  880 1190  880 2370))
+      (outline (path signal 120  880 2380  5600 2380))
+      (outline (path signal 120  880 -4160  880 -3330))
+      (outline (path signal 50  -1150 3910  -1150 -8910))
+      (outline (path signal 50  12600 -8910  12600 3910))
+      (outline (path signal 50  12600 3910  -1150 3910))
+      (outline (path signal 50  -1150 -8910  12600 -8910))
+      (outline (path signal 100  1000 2250  12350 2250))
+      (outline (path signal 100  12350 -7250  12350 2250))
+      (outline (path signal 100  1000 -7250  1000 2250))
+      (outline (path signal 100  1000 -7250  12350 -7250))
       (outline (path signal 100  11000 -2500  10980.8 -2865.85  10923.5 -3227.69  10828.7 -3581.56
             10697.4 -3923.58  10531.1 -4250  10331.6 -4557.25  10101 -4841.96
             9841.96 -5101.01  9557.25 -5331.56  9250 -5531.09  8923.58 -5697.41
@@ -200,28 +211,11 @@
             9841.96 101.007  10101 -158.043  10331.6 -442.752  10531.1 -750
             10697.4 -1076.42  10828.7 -1418.44  10923.5 -1772.31  10980.8 -2134.15
             11000 -2500))
-      (outline (path signal 100  1000 -7250  12350 -7250))
-      (outline (path signal 100  1000 -7250  1000 2250))
-      (outline (path signal 100  12350 -7250  12350 2250))
-      (outline (path signal 100  1000 2250  12350 2250))
-      (outline (path signal 50  -1150 -8910  12600 -8910))
-      (outline (path signal 50  12600 3910  -1150 3910))
-      (outline (path signal 50  12600 -8910  12600 3910))
-      (outline (path signal 50  -1150 3910  -1150 -8910))
-      (outline (path signal 120  880 -4160  880 -3330))
-      (outline (path signal 120  880 2380  5600 2380))
-      (outline (path signal 120  880 1190  880 2370))
-      (outline (path signal 120  880 -1710  880 -1180))
-      (outline (path signal 120  9410 2370  12470 2370))
-      (outline (path signal 120  9410 -7370  12470 -7370))
-      (outline (path signal 120  12470 -7370  12470 2370))
-      (outline (path signal 120  880 -7370  5600 -7370))
-      (outline (path signal 120  880 -7370  880 -5880))
-      (pin Round[A]Pad_1800_um (rotate 90) 3 0 -5000)
-      (pin Round[A]Pad_1800_um (rotate 90) 2 0 -2500)
+      (pin Oval[A]Pad_2720x3240_um (rotate 90) @1 7500 2300)
+      (pin Oval[A]Pad_2720x3240_um (rotate 90) @2 7500 -7300)
       (pin Rect[A]Pad_1800x1800_um (rotate 90) 1 0 0)
-      (pin Oval[A]Pad_2720x3240_um (rotate 90) @1 7500 -7300)
-      (pin Oval[A]Pad_2720x3240_um (rotate 90) @2 7500 2300)
+      (pin Round[A]Pad_1800_um (rotate 90) 2 0 -2500)
+      (pin Round[A]Pad_1800_um (rotate 90) 3 0 -5000)
     )
     (image "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical::1"
       (outline (path signal 120  880 2380  5600 2380))
@@ -302,24 +296,6 @@
       (pin Rect[A]Pad_1800x1800_um (rotate 90) 1 0 0)
       (pin Round[A]Pad_1800_um (rotate 90) 2 0 -2500)
       (pin Round[A]Pad_1800_um (rotate 90) 3 0 -5000)
-    )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical
-      (outline (path signal 120  -1330 -1330  1330 -1330))
-      (outline (path signal 120  1330 -1270  1330 -1330))
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 -1270  -1330 -1330))
-      (outline (path signal 50  1800 -1800  1800 1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -1800))
-      (outline (path signal 50  -1800 -1800  1800 -1800))
-      (outline (path signal 100  -1270 -1270  -1270 635))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  1270 1270  1270 -1270))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  1270 -1270  -1270 -1270))
-      (pin Rect[A]Pad_1700x1700_um @1 0 0)
     )
     (image "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (outline (path signal 120  0 2560  1950 2560))
@@ -700,24 +676,6 @@
       (pin Rect[T]Pad_1100x1100_um 1 -1400 0)
       (pin Rect[T]Pad_1100x1100_um 2 1400 0)
     )
-    (image Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical::1
-      (outline (path signal 120  -1330 0  -1330 1330))
-      (outline (path signal 120  -1330 1330  0 1330))
-      (outline (path signal 120  1330 -1270  1330 -1330))
-      (outline (path signal 120  -1330 -1270  -1330 -1330))
-      (outline (path signal 120  -1330 -1270  1330 -1270))
-      (outline (path signal 120  -1330 -1330  1330 -1330))
-      (outline (path signal 50  1800 -1800  1800 1800))
-      (outline (path signal 50  -1800 1800  -1800 -1800))
-      (outline (path signal 50  1800 1800  -1800 1800))
-      (outline (path signal 50  -1800 -1800  1800 -1800))
-      (outline (path signal 100  -635 1270  1270 1270))
-      (outline (path signal 100  -1270 635  -635 1270))
-      (outline (path signal 100  -1270 -1270  -1270 635))
-      (outline (path signal 100  1270 1270  1270 -1270))
-      (outline (path signal 100  1270 -1270  -1270 -1270))
-      (pin Rect[A]Pad_1700x1700_um @1 0 0)
-    )
     (image Resistor_SMD:R_0805_2012Metric::11
       (outline (path signal 120  -227.064 -735  227.064 -735))
       (outline (path signal 120  -227.064 735  227.064 735))
@@ -897,10 +855,10 @@
       (pins C5-2 J2-4 J1-4)
     )
     (net "Net-(C2-Pad1)"
-      (pins RV3-3 U1-6 C2-1 C8-2)
+      (pins RV3-1 U1-6 C2-1 C8-2)
     )
     (net "Net-(C10-Pad1)"
-      (pins RV2-2 RV2-3 C10-1)
+      (pins RV2-1 RV2-2 C10-1)
     )
     (net "Net-(D3-Pad1)"
       (pins R9-1 D3-1)
@@ -915,7 +873,7 @@
       (pins RV1-3 R4-1)
     )
     (net "Net-(R8-Pad1)"
-      (pins RV2-1 R8-1)
+      (pins RV2-3 R8-1)
     )
     (net "unconnected-(U1-Pad5)"
       (pins U1-5)
@@ -930,7 +888,7 @@
       (pins U1-1 C6-2)
     )
     (net "Net-(C8-Pad1)"
-      (pins RV3-1 RV3-2 U1-2 R8-2 C8-1 R11-2)
+      (pins RV3-2 RV3-3 U1-2 R8-2 C8-1 R11-2)
     )
     (net "Net-(C11-Pad1)"
       (pins C11-1 R11-1)
@@ -939,7 +897,7 @@
       (pins C7-2 C3-1 R4-2)
     )
     (net "Net-(D1-Pad2)"
-      (pins RV1-2 RV1-1 R3-2 D2-1 D1-2)
+      (pins RV1-1 RV1-2 R3-2 D2-1 D1-2)
     )
     (class kicad_default
       (circuit

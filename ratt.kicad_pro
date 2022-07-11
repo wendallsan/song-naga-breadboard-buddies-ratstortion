@@ -448,7 +448,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "specctra_dsn": "ratt.dsn",
       "step": "",
       "vrml": ""
